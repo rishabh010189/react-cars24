@@ -12,4 +12,4 @@ RUN npm run build
 
 FROM nginx
 
-COPY --from=builder /usr/reactweb /usr/share/nginx/html
+COPY --from=builder /usr/reactweb/build /usr/share/nginx/html
