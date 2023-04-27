@@ -1,6 +1,6 @@
 FROM node:16-alpine as builder
 
-WORKDIR /usr/reactweb
+WORKDIR '/usr/reactweb'
 
 COPY package*.json ./
 
